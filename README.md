@@ -41,6 +41,11 @@ cargo run --release -- "path/to/model.glb"
 cargo run --release -- --help
 ```
 
+## Building on Linux
+Install dependencies:
+```sh
+sudo apt install build-essential pkg-config libvulkan-dev libx11-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev libxkbcommon-dev libfontconfig1-dev
+
 ## Basic Usage
 
 1. Import a glTF / GLB / FBX model to create a new project.
